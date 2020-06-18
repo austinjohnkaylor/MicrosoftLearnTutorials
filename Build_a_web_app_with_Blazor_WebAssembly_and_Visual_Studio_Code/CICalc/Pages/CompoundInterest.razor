@@ -15,23 +15,21 @@
     }
 }
 
-<table class="table">
-    <tr>
-        <th>Initial Principal</th>
-        <th></th>
-    </tr>
-    <tr>
-        <th>Years</th>
-        <th></th>
-    </tr>
-    <tr>
-        <th>Annual Interest Rate (%)</th>
-        <th></th>
-    </tr>
-    <tr>
-        <th>Total:</th>
-        <th></th>
-    </tr>
-</table>
+<tr>
+    <th>Initial Principal</th>
+    <th><input @bind="Principal" /></th>
+</tr>
+<tr>
+    <th>Years</th>
+    <th><input @bind="Years" /></th>
+</tr>
+<tr>
+    <th>Annual Interest Rate (%)</th>
+    <th><input @bind="InterestRate" /></th>
+</tr>
+<tr>
+    <th>Total:</th>
+    <th>@Total</th>
+</tr>
 
 <button class="btn btn-primary">Calculate</button>
