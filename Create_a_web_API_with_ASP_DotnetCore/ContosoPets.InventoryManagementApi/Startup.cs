@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ContosoPets.Api.Data;
+using Microsoft.EntityFrameworkCore.InMemory
 
 namespace ContosoPets.InventoryManagementApi
 {
@@ -25,6 +27,8 @@ namespace ContosoPets.InventoryManagementApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ContosoPetsContext>(options =>
+                options.UseInMemoryDatabase("ContosoPets"));
             services.AddControllers();
         }
 
