@@ -3,4 +3,4 @@
 
 ## How to test the API
 1. `dotnet run --project ContosoPets.InventoryManagementApi`
-2. `curl -k -s https://localhost:5001/weatherforecast`
+2. `curl -k -s https://localhost:5001/weatherforecast`git 
