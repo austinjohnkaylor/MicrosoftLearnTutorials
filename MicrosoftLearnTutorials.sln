@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build your first microservi
 		Build your first microservice with .NET\README.md = Build your first microservice with .NET\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "..\mslearn-dotnetmicroservices\backend\backend.csproj", "{63AF666D-C210-4BBA-B1FB-FACDA25B0D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frontend", "..\mslearn-dotnetmicroservices\frontend\frontend.csproj", "{1C9EE677-6EA7-4392-AE97-80101921E0D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,5 +19,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63AF666D-C210-4BBA-B1FB-FACDA25B0D46} = {4DACE97E-445A-4D5D-A21B-33CB908CD38F}
+		{1C9EE677-6EA7-4392-AE97-80101921E0D6} = {4DACE97E-445A-4D5D-A21B-33CB908CD38F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63AF666D-C210-4BBA-B1FB-FACDA25B0D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AF666D-C210-4BBA-B1FB-FACDA25B0D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AF666D-C210-4BBA-B1FB-FACDA25B0D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AF666D-C210-4BBA-B1FB-FACDA25B0D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9EE677-6EA7-4392-AE97-80101921E0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9EE677-6EA7-4392-AE97-80101921E0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9EE677-6EA7-4392-AE97-80101921E0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9EE677-6EA7-4392-AE97-80101921E0D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
