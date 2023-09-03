@@ -1,0 +1,25 @@
+version: '3.4'
+
+services: 
+# creates the frontend website, naming it pizzafrontend. The code tells Docker to build it, pointing to the Dockerfile found in the frontend folder
+  frontend:
+    image: pizzafrontend
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    # the code sets an environment variable for the pizzafrontend: backendUrl=http://backend
+    environment: 
+      - backendUrl=http://backend
+    # opens port 80 (5902 locally) for the pizzafrontend
+    ports:
+      - "5902:80"
+    # makes the pizzafrontend depend on the pizzabackend docker image
+    depends_on: 
+      - backend
+  backend:
+    image: pizzabackend
+    build: 
+      context: backend
+      dockerfile: Dockerfile
+    ports: 
+      - "5000:80"

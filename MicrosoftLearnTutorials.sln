@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build your first microservice with .NET", "Build your first microservice with .NET", "{4DACE97E-445A-4D5D-A21B-33CB908CD38F}"
 	ProjectSection(SolutionItems) = preProject
 		Build your first microservice with .NET\README.md = Build your first microservice with .NET\README.md
+		Build your first microservice with .NET\docker-compose.yml = Build your first microservice with .NET\docker-compose.yml
+		Build your first microservice with .NET\docker-compose.sh = Build your first microservice with .NET\docker-compose.sh
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "..\mslearn-dotnetmicroservices\backend\backend.csproj", "{63AF666D-C210-4BBA-B1FB-FACDA25B0D46}"
