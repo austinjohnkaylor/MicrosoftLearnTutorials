@@ -65,3 +65,20 @@ If that sounds like containerizing an application would be a great way to implem
 [Docker](https://www.docker.com) is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run in the cloud or on-premises
 
 [Other Stacks](https://www.cloudzero.com/blog/docker-alternatives)
+
+## Microservices Orchestration
+Running 1 service in a docker container is fine, especially for a small application. But what if more services get added to the application? This will make it difficult to scale out and manager all these different services.
+
+This is where Orchestration comes in, which helps with composing applications consisting of many microservices into one deployable unit. That unit is then moved — or deployed — to a host.
+
+Once deployed, the orchestrator then helps with managing the host. It can automatically start the containers, scale them out with multiple instances per image, suspend them, or shut them down when needed. The orchestrator can also control how containers access resources like the network and data storage
+
+## Docker Compose
+For this application, a full-fledged orchestrator might be a bit overkill for this, given how simple it is.
+
+Ideally, our app just needs a way to deploy a the backend and frontend images together as a single unit without the overhead of an orchestrator. This is where Docker Compose comes in.
+Docker Compose is just a YAML file that specifies what services are needed for a given application.
+
+In our case, we just need to put both the backend and frontend in the docker compose. This will group them together as one "unit"
+
+Docker Compose works fine for testing scenarios, but should probably be left to the test or dev environment. Production scenarios should utilize a full-fledged orchestrator 
