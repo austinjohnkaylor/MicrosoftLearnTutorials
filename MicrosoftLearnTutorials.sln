@@ -14,6 +14,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "Build your first
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frontend", "Build your first microservice with .NET\frontend\frontend.csproj", "{1F11C13E-C27D-46F3-B65B-44A9AA251B3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy a .NET Aspire app to Azure Container Apps", "Deploy a .NET Aspire app to Azure Container Apps", "{5DC7F339-4742-46D3-8A1E-7C3A251B4055}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy a .NET Aspire app to Azure Container Apps\README.md = Deploy a .NET Aspire app to Azure Container Apps\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
