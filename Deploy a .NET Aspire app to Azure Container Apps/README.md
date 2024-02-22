@@ -8,7 +8,7 @@
 - How to deploy the apps to an Azure Container Apps environment
 - How to view application console logs to troubleshoot application issues
 
-## Instructions
+## Setup the app
 1. Bootstrap a new .NET Aspire project ```dotnet new aspire-starter --use-redis-cache --output AspireSample```
 2. cd into the root of your .NET Aspire project
 3. Execute the ```azd init``` command to initialize your project with azd, which will inspect the local directory structure and determine the type of app
@@ -28,5 +28,11 @@ Configuration file that informs azd what the current active environment is.
 Contains environment specific overrides.
 #### .azure/aspireazddev/config.json: 
 Configuration file that informs azd which services should have a public endpoint in this environment.
+
+## Deploy the app
+1. Run `azd up` to deploy the app to Azure Container Apps
+2. Log into Azure, and navigate to rg-{environment-name} resource group to see all the stuff `azd up` created for the aspire app
+3. Click on the web app to see the app running in the browser
+4. Run `az group delete --name rg-<your-environment-name>` to delete the resource group and all the resources in it
 
 [Back to solution readme](../README.md)
