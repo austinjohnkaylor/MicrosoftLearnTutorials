@@ -14,6 +14,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "Build your first
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frontend", "Build your first microservice with .NET\frontend\frontend.csproj", "{1F11C13E-C27D-46F3-B65B-44A9AA251B3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy a .NET Aspire app to Azure Container Apps", "Deploy a .NET Aspire app to Azure Container Apps", "{5DC7F339-4742-46D3-8A1E-7C3A251B4055}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy a .NET Aspire app to Azure Container Apps\README.md = Deploy a .NET Aspire app to Azure Container Apps\README.md
+		Deploy a .NET Aspire app to Azure Container Apps\AspireApp.sln = Deploy a .NET Aspire app to Azure Container Apps\AspireApp.sln
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.ApiService", "Deploy a .NET Aspire app to Azure Container Apps\AspireApp.ApiService\AspireApp.ApiService.csproj", "{4D4F4BD3-11EF-42B6-B57A-7AA9D3A34B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.AppHost", "Deploy a .NET Aspire app to Azure Container Apps\AspireApp.AppHost\AspireApp.AppHost.csproj", "{4258576C-80A0-4DB5-B5EB-5D53C084E669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.ServiceDefaults", "Deploy a .NET Aspire app to Azure Container Apps\AspireApp.ServiceDefaults\AspireApp.ServiceDefaults.csproj", "{B875BCCE-54D8-4468-A2E5-60E8BB3B777C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.Web", "Deploy a .NET Aspire app to Azure Container Apps\AspireApp.Web\AspireApp.Web.csproj", "{EF08928D-2E4D-4652-947C-A276B705586C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +39,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{32212339-B8AA-4D28-864F-6FD037EC8F69} = {4DACE97E-445A-4D5D-A21B-33CB908CD38F}
 		{1F11C13E-C27D-46F3-B65B-44A9AA251B3C} = {4DACE97E-445A-4D5D-A21B-33CB908CD38F}
+		{4D4F4BD3-11EF-42B6-B57A-7AA9D3A34B03} = {5DC7F339-4742-46D3-8A1E-7C3A251B4055}
+		{4258576C-80A0-4DB5-B5EB-5D53C084E669} = {5DC7F339-4742-46D3-8A1E-7C3A251B4055}
+		{B875BCCE-54D8-4468-A2E5-60E8BB3B777C} = {5DC7F339-4742-46D3-8A1E-7C3A251B4055}
+		{EF08928D-2E4D-4652-947C-A276B705586C} = {5DC7F339-4742-46D3-8A1E-7C3A251B4055}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{32212339-B8AA-4D28-864F-6FD037EC8F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,5 +53,21 @@ Global
 		{1F11C13E-C27D-46F3-B65B-44A9AA251B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F11C13E-C27D-46F3-B65B-44A9AA251B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F11C13E-C27D-46F3-B65B-44A9AA251B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4F4BD3-11EF-42B6-B57A-7AA9D3A34B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4F4BD3-11EF-42B6-B57A-7AA9D3A34B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4F4BD3-11EF-42B6-B57A-7AA9D3A34B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4F4BD3-11EF-42B6-B57A-7AA9D3A34B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4258576C-80A0-4DB5-B5EB-5D53C084E669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4258576C-80A0-4DB5-B5EB-5D53C084E669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4258576C-80A0-4DB5-B5EB-5D53C084E669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4258576C-80A0-4DB5-B5EB-5D53C084E669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B875BCCE-54D8-4468-A2E5-60E8BB3B777C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B875BCCE-54D8-4468-A2E5-60E8BB3B777C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B875BCCE-54D8-4468-A2E5-60E8BB3B777C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B875BCCE-54D8-4468-A2E5-60E8BB3B777C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF08928D-2E4D-4652-947C-A276B705586C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF08928D-2E4D-4652-947C-A276B705586C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF08928D-2E4D-4652-947C-A276B705586C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF08928D-2E4D-4652-947C-A276B705586C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
