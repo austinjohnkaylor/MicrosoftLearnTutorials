@@ -17,6 +17,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy a .NET Aspire app to Azure Container Apps", "Deploy a .NET Aspire app to Azure Container Apps", "{5DC7F339-4742-46D3-8A1E-7C3A251B4055}"
 	ProjectSection(SolutionItems) = preProject
 		Deploy a .NET Aspire app to Azure Container Apps\README.md = Deploy a .NET Aspire app to Azure Container Apps\README.md
+		Deploy a .NET Aspire app to Azure Container Apps\AspireApp.sln = Deploy a .NET Aspire app to Azure Container Apps\AspireApp.sln
 	EndProjectSection
 EndProject
 Global
