@@ -29,6 +29,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.Web", "Deploy a .NET Aspire app to Azure Container Apps\AspireApp.Web\AspireApp.Web.csproj", "{EF08928D-2E4D-4652-947C-A276B705586C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secure a .NET web app with the ASP.NET Core Identity framework", "Secure a .NET web app with the ASP.NET Core Identity framework", "{BC4F0F36-7EBB-4DD4-A8D8-3DDD0FCE4BC8}"
+	ProjectSection(SolutionItems) = preProject
+		Secure a .NET web app with the ASP.NET Core Identity framework\Secure a .NET web app with the ASP.NET Core Identity framework.sln = Secure a .NET web app with the ASP.NET Core Identity framework\Secure a .NET web app with the ASP.NET Core Identity framework.sln
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
