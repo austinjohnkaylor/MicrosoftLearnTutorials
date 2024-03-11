@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace RazorPagesApp.Pages;
+namespace RazorPagesPizza.Pages;
 
 public class PrivacyModel : PageModel
 {
@@ -16,3 +16,4 @@ public class PrivacyModel : PageModel
     {
     }
 }
+
