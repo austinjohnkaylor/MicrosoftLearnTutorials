@@ -31,6 +31,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Secure a .NET web app with the ASP.NET Core Identity framework", "Secure a .NET web app with the ASP.NET Core Identity framework", "{BC4F0F36-7EBB-4DD4-A8D8-3DDD0FCE4BC8}"
 	ProjectSection(SolutionItems) = preProject
 		Secure a .NET web app with the ASP.NET Core Identity framework\Secure a .NET web app with the ASP.NET Core Identity framework.sln = Secure a .NET web app with the ASP.NET Core Identity framework\Secure a .NET web app with the ASP.NET Core Identity framework.sln
+		Secure a .NET web app with the ASP.NET Core Identity framework\README.md = Secure a .NET web app with the ASP.NET Core Identity framework\README.md
 	EndProjectSection
 EndProject
 Global
