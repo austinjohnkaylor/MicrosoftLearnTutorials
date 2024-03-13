@@ -31,6 +31,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.MapSwagger().RequireAuthorization();
+
 app.MapIdentityApi<IdentityUser>();
 
 app.MapControllers();
