@@ -1,2 +1,4 @@
 # Secure a .NET web app with ASP.NET Core Identity Framework
 [Microsoft Learn Tutorial](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-8.0&source=recommendations)
+
+[Left off here](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-8.0&source=recommendations#use-the-get-confirmemail-endpoint)
