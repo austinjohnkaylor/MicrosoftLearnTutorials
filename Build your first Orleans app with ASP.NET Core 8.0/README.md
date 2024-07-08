@@ -30,7 +30,13 @@ This module demonstrates how to build a small but scalable URL shortening app us
 - A local installation of the .NET 8.0 SDK
 - Visual Studio Code with the Azure development workload installed
 # Architecture
-
+## Solution Structure
+- The solution contains the following projects:
+  - `UrlShortener.Grains`: Contains the grain implementations
+  - `UrlShortener.Interfaces`: Contains the grain interfaces
+  - `UrlShortener.Silo`: Contains the Orleans Silo host
+  - `UrlShortener.Client`: Contains the client application
+  - `UrlShortener.Web`: Contains the web service endpoints
 # Learning Objectives
 This tutorial demonstrates the following:
 - Use Orleans to create and set up a project.
