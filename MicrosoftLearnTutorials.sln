@@ -31,6 +31,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build your first Orleans app with ASP.NET Core 8.0", "Build your first Orleans app with ASP.NET Core 8.0", "{46B5FD3E-35F0-4960-9121-942310EDD56E}"
 	ProjectSection(SolutionItems) = preProject
 		Build your first Orleans app with ASP.NET Core 8.0\Build your first Orleans app with ASP.NET Core 8.0.sln = Build your first Orleans app with ASP.NET Core 8.0\Build your first Orleans app with ASP.NET Core 8.0.sln
+		Build your first Orleans app with ASP.NET Core 8.0\README.md = Build your first Orleans app with ASP.NET Core 8.0\README.md
 	EndProjectSection
 EndProject
 Global
