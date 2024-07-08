@@ -28,6 +28,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.ServiceDefaults",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.Web", "Deploy a .NET Aspire app to Azure Container Apps\AspireApp.Web\AspireApp.Web.csproj", "{EF08928D-2E4D-4652-947C-A276B705586C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build your first Orleans app with ASP.NET Core 8.0", "Build your first Orleans app with ASP.NET Core 8.0", "{46B5FD3E-35F0-4960-9121-942310EDD56E}"
+	ProjectSection(SolutionItems) = preProject
+		Build your first Orleans app with ASP.NET Core 8.0\Build your first Orleans app with ASP.NET Core 8.0.sln = Build your first Orleans app with ASP.NET Core 8.0\Build your first Orleans app with ASP.NET Core 8.0.sln
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
